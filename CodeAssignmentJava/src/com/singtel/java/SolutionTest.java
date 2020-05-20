@@ -5,6 +5,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class SolutionTest {
+	//A)1B
 	//Testing each method called from the bird class
 	@Test
 	public void testBirdWalk() {
