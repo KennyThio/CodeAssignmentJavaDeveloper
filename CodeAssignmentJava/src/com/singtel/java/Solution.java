@@ -19,12 +19,19 @@ public class Solution {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		birdActions();
+	
+	}
+	
+	//Created a method to organize actions for bird
+	static void birdActions() {
 		Bird bird = new Bird();
 		bird.walk();
 		bird.fly();
 		//called the sing method from the bird object
 		bird.sing();
-	
 	}
-
+	
+	
 }
