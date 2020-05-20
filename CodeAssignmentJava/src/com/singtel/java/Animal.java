@@ -14,10 +14,7 @@ class Bird extends Animal {
 		 System.out.println("I am singing");
 	 }
 	 
-	 //created a swim method
-	 void swim() {
-		 System.out.println("I can't swim");
-	 }
+	
 }
 
 class Duck extends Bird{
@@ -26,8 +23,7 @@ class Duck extends Bird{
 	void sing() {
 		System.out.println("I say Quack Quack");
 	}
-	//override the swim method as duck can swim
-	@Override
+	//create the swim method
 	void swim() {
 		System.out.println("I can swim");
 	}

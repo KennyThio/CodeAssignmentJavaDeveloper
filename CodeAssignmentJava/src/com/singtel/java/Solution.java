@@ -25,14 +25,14 @@ public class Solution {
 	
 	//method for duck actions
 	static void duckActions() {
-		Bird duck = new Duck();
+		Duck duck = new Duck();
 		duck.sing();
 		duck.swim();
 	}
 	
 	//method for chicken actions
 	static void chickenActions() {
-		Bird chicken = new Chicken();
+		Chicken chicken = new Chicken();
 		chicken.sing();
 		chicken.fly();
 	}
