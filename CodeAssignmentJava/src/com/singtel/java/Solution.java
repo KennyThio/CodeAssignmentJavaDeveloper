@@ -24,7 +24,7 @@ public class Solution {
 	
 	}
 	
-	//Created a method to organize actions for bird
+	//Created a method to organize actions for bird 
 	static void birdActions() {
 		Bird bird = new Bird();
 		bird.walk();
