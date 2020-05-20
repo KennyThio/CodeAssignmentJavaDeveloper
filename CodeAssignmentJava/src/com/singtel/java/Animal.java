@@ -5,6 +5,26 @@ public class Animal {
 		 System.out.println("I am walking");
 	 }
 }
+
+class Dog extends Animal{
+	void sound(){
+		System.out.println("Woof Woof");
+	}
+}
+
+class ParrotOne extends Dog{
+	
+}
+
+class Cat extends Animal{
+	void sound() {
+		System.out.println("Meow Meow");
+	}
+}
+class ParrotTwo extends Cat{
+	
+}
+
 class Bird extends Animal {
 	 void fly() {
 		 System.out.println("I am flying");
@@ -42,3 +62,19 @@ class Chicken extends Bird{
 	}
 }
 
+class Rooster{
+	
+	
+	void sound() {
+		System.out.println("I say Cock-a-doodle-doo");
+	}
+	void gender() {
+		System.out.println("I am a male chicken");
+	}
+	
+}
+
+class ParrotThree extends Rooster{
+	
+	
+}
