@@ -22,3 +22,6 @@ D)
 1) I created a Caterpillar class that extends to Animal class and a butterfly that extends to Caterpillat class
 2)In the main method I created a try catch finally statement. In the try statement, I called the method with the caterpillar object and set a delay of 5 sec. After the 5 sec, it will call the method with the butterfly object. This is to metamorphosis from caterpillar to
 butterfly
+
+Extra)
+I have created a switch statement that will allow others to view the animal actions easier
